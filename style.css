@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+/* HEADER */
+#logo1{
+    width: 150px;
+    position: relative;
+    top: 15px;
+    left: 15px;
+    z-index: 999;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-size: 20px;
+    gap: 25px;
+    position: relative;
+    bottom: 14px;
+    right: 10px;
+}
+#ig-icon{
+    width: 25px;
+}
+#linkedin-icon{
+    width: 40px;
+    position: relative;
+    bottom: 7px;
+}
+hr{
+    position: relative;
+bottom: 20px;
+}
+
+
+/* SERVICES */
+
+#h1-services{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom:30px ;
+    letter-spacing: 10px;
+}
+#section-images{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    gap: 30px;
+
+}
+.images{
+    width: 150px;
+    position: relative;
+    left: 130px;
+ 
+}
+#laundry{
+    width: 150px;
+    position: relative;
+    left: 150px;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.mini-container{
+    border: 1px solid gray;
+    box-shadow: 0 0 5px 2.5px rgba(0, 0, 0, 0.125);
+}
+
+
+
+
+/* Faq */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .faq {
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .faq h2 {
+    cursor: pointer;
+  }
+  
+  .faq p {
+    display: none;
+  }
+  .faq {
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .faq.active h2 {
+    color: #337ab7;
+  }
+  
+  .faq.active p {
+    display: block;
+  }
